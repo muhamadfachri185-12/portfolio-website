@@ -179,6 +179,122 @@
   animation-delay: 1.5s;
 }
 
+/* ================= SKILLS ================= */
+.skill-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.skill-icon {
+  width: 58px;
+  height: 58px;
+  background: #ede9fe;
+  color: #7c3aed;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.skill-badge {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tech-item {
+  cursor: pointer;
+}
+
+.tech-icon {
+  width: 52px;
+  height: 52px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 14px;
+  background: #f3f4f6;
+  color: #6b7280;
+
+  transition: 0.3s ease;
+}
+
+.tech-item:hover .tech-icon {
+  background: #ede9fe;
+  color: #7c3aed;
+  transform: translateY(-3px);
+}
+
+.tech-item p {
+  color: #6b7280;
+  transition: 0.3s;
+}
+
+.tech-item:hover p {
+  color: #111827;
+}
+
+/* ================= PROOJECTS ================= */
+.project-card {
+  overflow: hidden;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.project-card img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/*-- ================= TESTIMONIALS ================= */
+.testimonial-card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #e9ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
 /*-- ================= FOOTER ================= */
 
 .modern-footer {
