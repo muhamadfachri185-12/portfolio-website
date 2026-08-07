@@ -92,7 +92,14 @@
                 Fill out the form below and I'll get back to you as soon as
                 possible.
               </p>
-              <form>
+              <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                action="/success.html"
+                class="mt-5"
+              >
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="row">
                   <div class="col-md-6 mb-4">
                     <label class="form-label"> Full Name </label>

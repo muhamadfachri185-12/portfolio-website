@@ -458,15 +458,13 @@
 
             <!-- Contact Form -->
             <form
-              data-validate=""
-              class="mt-5"
-              data-contact-form=""
               name="contact"
               method="POST"
               data-netlify="true"
-              action="success.html"
+              action="/success.html"
               class="mt-5"
             >
+              <!-- Wajib untuk Netlify -->
               <input type="hidden" name="form-name" value="contact" />
 
               <div class="row g-4 mb-4">
@@ -483,6 +481,7 @@
                     class="form-control form-control-lg rounded-3"
                   />
                 </div>
+
                 <div class="col-12 col-sm-6">
                   <label
                     for="email"
@@ -500,12 +499,13 @@
                   />
                 </div>
               </div>
+
               <div class="mb-4">
                 <label
                   for="subject"
                   class="form-label fw-medium text-secondary"
                 >
-                  SUbject
+                  Subject
                 </label>
                 <input
                   type="text"
@@ -516,7 +516,8 @@
                   class="form-control form-control-lg rounded-3"
                 />
               </div>
-              <div>
+
+              <div class="mb-4">
                 <label
                   for="message"
                   class="form-label fw-medium text-secondary"
@@ -532,6 +533,7 @@
                   class="form-control form-control-lg rounded-3"
                 ></textarea>
               </div>
+
               <div class="text-center">
                 <button
                   type="submit"
